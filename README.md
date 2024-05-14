@@ -48,5 +48,8 @@ Restore the file in the PluginsSettings folder or from another profile.
 ### Change the search engine
 DuckDuckGo or Startpage for example
 
+## Remove Facebook Wikipedia and co from search 
+about:preferences#home disable blank page disable all at the new page and renable it again.
+
 ## If you want apply a custom style
 This is my custom style - [FirefoxStyle](https://github.com/Alexandermis/FirefoxStyle)
