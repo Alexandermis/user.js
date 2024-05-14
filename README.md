@@ -31,8 +31,9 @@ https://github.com/arkenfox/user.js/blob/master/user.js
 - [uBlock Origin](https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi)
 - [Skip Redirect](https://addons.mozilla.org/firefox/downloads/latest/skip-redirect/latest.xpi)
 - [Chameleon](https://addons.mozilla.org/firefox/downloads/latest/chameleon-ext/latest.xpi)
-- [Dark Reader](https://addons.mozilla.org/firefox/downloads/latest/darkreader/latest.xpi)
+- [Midnight Lizard](https://addons.mozilla.org/firefox/downloads/latest/midnight-lizard-quantum/latest.xpi)
 - [LanguageTool](https://addons.mozilla.org/firefox/downloads/latest/languagetool/latest.xpi)
+
 
 ## Configuring Plugins
 
