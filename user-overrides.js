@@ -36,8 +36,8 @@ user_pref("intl.locale.requested", "en-US,de");
 user_pref("extensions.update.enabled", true); //0303
 user_pref("extensions.update.autoUpdateDefault", true); //0304
 
-
-
+// enable Fav
+user_pref("browser.shell.shortcutFavicons", true);
 //Test
 //user_pref("privacy.cpd.cookies", false); //2804 
 user_pref("webgl.disabled", true);
