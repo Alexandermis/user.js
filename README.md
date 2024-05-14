@@ -1,4 +1,6 @@
 Project based on https://github.com/arkenfox/user.js/wiki
+# Maybe get the newest version of 
+https://github.com/arkenfox/user.js/blob/master/user.js
 # How to use this?
 1. Just copy the contant of the copyToProfileFolder to the firefox profile and use the scripts.
 
@@ -14,10 +16,13 @@ Windows location:
 %APPDATA%\Mozilla\Firefox\Profiles\
   # Bookmarks
   - `places.sqlite` 
+  # The favicons for the Bookmarks
+  - `favicons.sqlite` 
   # Side permissions including cookie permissions
   - `permissions.sqlite`
   # Cookies 
   - `cookies.sqlite`
+
 
 # Plugins I'm Using
 
