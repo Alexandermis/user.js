@@ -23,10 +23,6 @@ user_pref("browser.shell.shortcutFavicons", true);
 user_pref("webgl.disabled", true);
 //enabel DRM necessary for music in the browser
 user_pref("media.eme.enabled", true);
-// Disable Save browsing it dont use google direcetly
-// user_pref("browser.safebrowsing.malware.enabled", false);
-// user_pref("browser.safebrowsing.phishing.enabled", false);
-// user_pref("browser.safebrowsing.downloads.enabled", false);
 //Disable firefox stores passwords 
 user_pref("services.sync.prefs.sync.signon.rememberSignons", false);
 user_pref("signon.rememberSignons", false);
@@ -39,12 +35,6 @@ user_pref("browser.toolbars.bookmarks.visibility", "always");
 user_pref("browser.translations.automaticallyPopup", false);
 // Disable Telemetry
 user_pref("toolkit.telemetry.pioneer-new-studies-available", false);
-// Search engine not working currently
-// user_pref("browser.search.defaultenginename", "DuckDuckGo");
-// user_pref("browser.urlbar.placeholderName", "DuckDuckGo");
-// user_pref("browser.urlbar.placeholderName.private", "DuckDuckGo");
-//7015: enable the DNT (Do Not Track) HTTP header
-user_pref("privacy.donottrackheader.enabled", true);
 //7020: disable WebRTC (Web Real-Time Communication)
 ////user_pref("media.peerconnection.enabled", false);
 // own Style with CSS 
@@ -55,7 +45,8 @@ user_pref("media.getusermedia.screensharing.enabled", false );
 user_pref("media.navigator.enabled", false );
 // Protect from audio rendering proofiles
 user_pref("media.autoplay.enabled", false );
-
-
-
-
+//[SETUP-HARDEN] This will protect your private IP even in TRUSTED scenarios after you
+// grant device access, but often results in breakage on video-conferencing platforms 
+user_pref("media.peerconnection.ice.no_host", true);
+//[SETUP-HARDEN] Disable ETP web compat features 
+user_pref("privacy.antitracking.enableWebcompat", false);
