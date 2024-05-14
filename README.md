@@ -12,8 +12,11 @@ https://github.com/arkenfox/user.js/blob/master/user.js
 
 - Note that cookies get deleted after closing Firefox. If you want to keep them, you need to allow them every time.
 - Copy the bookmark file, cookie file, and the cookie permission file:
-Windows location:
-%APPDATA%\Mozilla\Firefox\Profiles\
+# Windows location:
+- `%APPDATA%\Mozilla\Firefox\Profiles\`
+# Linux location
+- `~/. mozilla/firefox/`
+# Windows location:
   # Bookmarks
   - `places.sqlite` 
   # The favicons for the Bookmarks
@@ -22,8 +25,9 @@ Windows location:
   - `permissions.sqlite`
   # Cookies 
   - `cookies.sqlite`
-
-
+  # Toolbar layout
+  - `localstore.rdf`
+  
 # Plugins I'm Using
 
 - [uBlock Origin](https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi)
@@ -45,5 +49,5 @@ Restore the file in the PluginsSettings folder or from another profile.
 ### Change the search engine
 DuckDuckGo or Startpage for example
 
-## Apply a custom style
-copy - [chrome](https://github.com/Alexandermis/FirefoxStyle) folder inside the profile 
+## If you want apply a custom style
+This is my custom style - [FirefoxStyle](https://github.com/Alexandermis/FirefoxStyle)
