@@ -44,3 +44,6 @@ Restore the file in the PluginsSettings folder or from another profile.
 
 ### Change the search engine
 DuckDuckGo or Startpage for example
+
+## Apply a custom style
+copy - [chrome](https://github.com/Alexandermis/FirefoxStyle) folder inside the profile 
