@@ -1,7 +1,10 @@
 Project based on https://github.com/arkenfox/user.js/wiki
 # Maybe get the newest version of 
+
 https://github.com/arkenfox/user.js/blob/master/user.js
+
 # How to use this?
+
 1. Just copy the contant of the copyToProfileFolder to the firefox profile and use the scripts.
 
 # How to Set Cookie Exceptions
