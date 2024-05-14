@@ -10,6 +10,8 @@ Project based on https://github.com/arkenfox/user.js/wiki
 
 - Note that cookies get deleted after closing Firefox. If you want to keep them, you need to allow them every time.
 - Copy the bookmark file, cookie file, and the cookie permission file:
+Windows location:
+%APPDATA%\Mozilla\Firefox\Profiles\
   # Bookmarks
   - `places.sqlite` 
   # Side permissions including cookie permissions
@@ -36,3 +38,4 @@ Restore the file in the PluginsSettings folder or from another profile.
 Restore the file in the PluginsSettings folder or from another profile.
 
 ### Change the search engine
+DuckDuckGo or Startpage for example
