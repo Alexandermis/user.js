@@ -16,17 +16,12 @@ https://github.com/arkenfox/user.js/blob/master/user.js
 - `%APPDATA%\Mozilla\Firefox\Profiles\`
 # Linux location
 - `~/. mozilla/firefox/`
-# Windows location:
-  # Bookmarks
-  - `places.sqlite` 
-  # The favicons for the Bookmarks
-  - `favicons.sqlite` 
-  # Side permissions including cookie permissions
-  - `permissions.sqlite`
-  # Cookies 
-  - `cookies.sqlite`
-  # Toolbar layout
-  - `localstore.rdf`
+# Copy this files from the old profile.
+  - `places.sqlite` Bookmarks
+  - `favicons.sqlite` The favicons for the bookmarks 
+  - `permissions.sqlite` Side permissions including cookie permissions
+  - `cookies.sqlite` Cookies 
+  - `localstore.rdf`  Toolbar layout
   
 # Plugins I'm Using
 
