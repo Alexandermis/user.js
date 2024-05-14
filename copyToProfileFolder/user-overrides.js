@@ -47,5 +47,15 @@ user_pref("toolkit.telemetry.pioneer-new-studies-available", false);
 user_pref("privacy.donottrackheader.enabled", true);
 //7020: disable WebRTC (Web Real-Time Communication)
 ////user_pref("media.peerconnection.enabled", false);
-//own CSS 
+// own Style with CSS 
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true );
+//Disable screen access
+user_pref("media.getusermedia.screensharing.enabled", false );
+// Disable access to media devices 
+user_pref("media.navigator.enabled", false );
+// Protect from audio rendering proofiles
+user_pref("media.autoplay.enabled", false );
+
+
+
+
