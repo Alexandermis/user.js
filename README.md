@@ -1,27 +1,29 @@
-Based on https://github.com/arkenfox/user.js/wiki but with tweaks
+# How to Set Cookie Exceptions
 
-### How to Set cooke exceptions
-☰ Settings > Privacy & Security > Cookies & Site Data > Manage Exceptions
+1. Navigate to Settings > Privacy & Security > Cookies & Site Data > Manage Exceptions.
 
-The following settings must be done manally!
+### The following settings must be done manually:
 
-// Note the cookies get deleted after closing firefox if you want to keep them you need to do allow every
-// Copy the bookmark file and cookie file and the cookie permission file
-// places.sqlite
-// permissions.sqlite
-// cookies.sqlite
+- Note that cookies get deleted after closing Firefox. If you want to keep them, you need to allow them every time.
+- Copy the bookmark file, cookie file, and the cookie permission file:
+  - `places.sqlite`
+  - `permissions.sqlite`
+  - `cookies.sqlite`
 
-// Plugins
-// https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi
-// https://addons.mozilla.org/firefox/downloads/latest/skip-redirect/latest.xpi
-// https://addons.mozilla.org/firefox/downloads/latest/chameleon-ext/latest.xpi
-// https://addons.mozilla.org/firefox/downloads/latest/darkreader/latest.xpi
-// https://addons.mozilla.org/firefox/downloads/latest/languagetool/latest.xpi
+# Plugins I'm Using
 
-// Config Plugins
+- [uBlock Origin](https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi)
+- [Skip Redirect](https://addons.mozilla.org/firefox/downloads/latest/skip-redirect/latest.xpi)
+- [Chameleon](https://addons.mozilla.org/firefox/downloads/latest/chameleon-ext/latest.xpi)
+- [Dark Reader](https://addons.mozilla.org/firefox/downloads/latest/darkreader/latest.xpi)
+- [LanguageTool](https://addons.mozilla.org/firefox/downloads/latest/languagetool/latest.xpi)
 
-// Ublock Origins settings
-// Restore File in PluginsSettings or from a other profile
+## Configuring Plugins
 
-// Chameleon settings
-// Restore File in PluginsSettings or from a other profile
+### uBlock Origin Settings
+
+Restore the file in the PluginsSettings folder or from another profile.
+
+### Chameleon Settings
+
+Restore the file in the PluginsSettings folder or from another profile.
