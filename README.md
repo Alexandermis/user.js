@@ -1,3 +1,7 @@
+Project based on https://github.com/arkenfox/user.js/wiki
+# How to use this?
+1. Just copy the contant of the copyToProfileFolder to the firefox profile and use the scripts.
+
 # How to Set Cookie Exceptions
 
 1. Navigate to Settings > Privacy & Security > Cookies & Site Data > Manage Exceptions.
@@ -6,8 +10,11 @@
 
 - Note that cookies get deleted after closing Firefox. If you want to keep them, you need to allow them every time.
 - Copy the bookmark file, cookie file, and the cookie permission file:
-  - `places.sqlite`
+  # Bookmarks
+  - `places.sqlite` 
+  # Side permissions including cookie permissions
   - `permissions.sqlite`
+  # Cookies 
   - `cookies.sqlite`
 
 # Plugins I'm Using
@@ -27,3 +34,5 @@ Restore the file in the PluginsSettings folder or from another profile.
 ### Chameleon Settings
 
 Restore the file in the PluginsSettings folder or from another profile.
+
+### Change the search engine
