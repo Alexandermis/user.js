@@ -50,3 +50,5 @@ user_pref("media.autoplay.enabled", false );
 user_pref("media.peerconnection.ice.no_host", true);
 //[SETUP-HARDEN] Disable ETP web compat features 
 user_pref("privacy.antitracking.enableWebcompat", false);
+// Disabling Firefox’s “privacy-preserving ad measurement” by default or before upgrading to Firefox 128
+user_pref("dom.private-attribution.submission.enabled", false);
