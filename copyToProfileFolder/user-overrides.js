@@ -52,3 +52,5 @@ user_pref("media.peerconnection.ice.no_host", true);
 user_pref("privacy.antitracking.enableWebcompat", false);
 // Disabling Firefox’s “privacy-preserving ad measurement” by default or before upgrading to Firefox 128
 user_pref("dom.private-attribution.submission.enabled", false);
+// Disable hardware acceleration for extrem power saving while ideal browsing
+user_pref("layers. acceleration. disabled", true);
