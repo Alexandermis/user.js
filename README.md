@@ -53,3 +53,7 @@ about:preferences#home disable blank page disable all at the new page and renabl
 
 ## If you want apply a custom style
 This is my custom style - [FirefoxStyle](https://github.com/Alexandermis/FirefoxStyle)
+
+## How does firefox prorfiles work?
+Run firefox with the flag
+-p "ProfileName"
