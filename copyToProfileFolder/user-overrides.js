@@ -54,3 +54,6 @@ user_pref("privacy.antitracking.enableWebcompat", false);
 user_pref("dom.private-attribution.submission.enabled", false);
 // Disable hardware acceleration for extrem power saving while ideal browsing
 user_pref("layers. acceleration. disabled", true);
+// Dark mode
+user_pref("ui.systemUsesDarkTheme", 1);
+user_pref("browser.theme.content-theme", ");
