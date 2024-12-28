@@ -56,4 +56,4 @@ user_pref("dom.private-attribution.submission.enabled", false);
 user_pref("layers. acceleration. disabled", true);
 // Dark mode
 user_pref("ui.systemUsesDarkTheme", 1);
-user_pref("browser.theme.content-theme", ");
+user_pref("browser.theme.content-theme", 2);
