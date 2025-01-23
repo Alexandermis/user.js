@@ -46,7 +46,9 @@ Restore the file in the PluginsSettings folder or from another profile.
 Restore the file in the PluginsSettings folder or from another profile.
 
 ### Change the search engine
-DuckDuckGo or Startpage for example
+https://search.brave.com
+https://www.startpage.com/
+https://duckduckgo.com/
 
 ## Remove Facebook Wikipedia and co from search 
 about:preferences#home disable blank page disable all at the new page and renable it again.
