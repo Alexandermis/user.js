@@ -46,9 +46,10 @@ Restore the file in the PluginsSettings folder or from another profile.
 Restore the file in the PluginsSettings folder or from another profile.
 
 ### Change the search engine
-https://search.brave.com
-https://www.startpage.com/
-https://duckduckgo.com/
+1) https://github.com/searxng/searxng
+2) https://search.brave.com
+3) https://www.startpage.com/
+4) https://duckduckgo.com/
 
 ## Remove Facebook Wikipedia and co from search 
 about:preferences#home disable blank page disable all at the new page and renable it again.
@@ -56,6 +57,6 @@ about:preferences#home disable blank page disable all at the new page and renabl
 ## If you want apply a custom style
 This is my custom style - [FirefoxStyle](https://github.com/Alexandermis/FirefoxStyle)
 
-## How does firefox prorfiles work?
+## How does firefox profiles work?
 Run firefox with the flag
 -p "ProfileName"
